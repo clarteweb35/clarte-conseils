@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>mon-chalet.fr — Conseil en location touristique à Domagné</title>
+<title>Clarté Conseils — Hébergement touristique insolite | Domagné (35)</title>
+<meta name="description" content="Clarté Conseils accompagne les propriétaires de terrain dans leur projet de chalet ou d'habitat léger en location : choix du modèle, implantation, agencement, prix. Domagné (35).">
+<!-- TODO : confirmer le nom de domaine, puis ajouter canonical, Open Graph et JSON-LD (voir seageo.md) -->
+<!-- TODO : remplacer le CDN Tailwind par du CSS inline pour respecter le cadre Clarté (aucune dépendance externe) -->
+<!-- TODO : remplacer par le domaine propre de Clarté Séjours quand il sera choisi -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -110,11 +115,12 @@
 <!-- ===== NAV ===== -->
 <header class="fixed top-0 inset-x-0 z-50 backdrop-blur bg-[var(--stone)]/85 border-b border-[var(--ink)]/10">
   <div class="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
-    <a href="#" class="font-display text-lg tracking-tight">mon-chalet<span class="text-[var(--rust)]">.fr</span></a>
+    <a href="#" class="font-display text-lg tracking-tight">Clarté <span class="text-[var(--rust)]">Conseils</span></a>
     <nav class="hidden md:flex items-center gap-8 text-sm">
       <a href="#methode" class="nav-link hover:text-[var(--rust)] transition-colors">La méthode</a>
       <a href="#histoire" class="nav-link hover:text-[var(--rust)] transition-colors">Mon parcours</a>
       <a href="#preuve" class="nav-link hover:text-[var(--rust)] transition-colors">Le chalet témoin</a>
+      <a href="#sejours" class="nav-link hover:text-[var(--rust)] transition-colors">Après l'ouverture</a>
       <a href="#faq" class="nav-link hover:text-[var(--rust)] transition-colors">Questions</a>
     </nav>
     <a href="#contact" class="btn-primary text-sm font-medium px-4 py-2.5 rounded-full">Réserver un échange</a>
@@ -125,7 +131,7 @@
 <section class="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-28">
   <div class="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <p class="eyebrow text-[var(--oak)] mb-6">Conseil en implantation &amp; location touristique — Domagné, Ille-et-Vilaine</p>
+      <p class="eyebrow text-[var(--oak)] mb-6">Clarté Conseils · Hébergement touristique insolite — Domagné, Ille-et-Vilaine</p>
       <h1 class="font-display text-[2.6rem] leading-[1.08] md:text-5xl md:leading-[1.05] max-w-3xl font-medium text-[var(--pine)]">
         Vous avez un terrain.<br>
         On en fait un <span class="italic text-[var(--rust)]">revenu</span>, pas un pari.
@@ -333,6 +339,31 @@
   </div>
 </section>
 
+<!-- ===== RENVOI CLARTE SEJOURS ===== -->
+<section id="sejours" class="section-pad bg-[var(--stone-2)]">
+  <div class="max-w-5xl mx-auto px-6 md:px-10 grid md:grid-cols-[1.2fr_1fr] gap-10 items-center">
+    <div>
+      <p class="eyebrow text-[var(--oak)] mb-4">Une fois l'hébergement ouvert</p>
+      <h2 class="font-display text-3xl md:text-4xl font-medium text-[var(--pine)] leading-tight">
+        Et pour le quotidien, il y a Clarté Séjours.
+      </h2>
+      <p class="mt-5 text-[var(--ink)]/80 leading-relaxed">
+        Le conseil prépare votre projet. Une fois les premiers voyageurs là, Clarté Séjours prend le relais avec une conciergerie pour hébergements touristiques : accueil, ménage, linge, paniers repas avec des producteurs et traiteurs locaux, attentions pour vos hôtes.
+      </p>
+      <p class="mt-4 text-[var(--ink)]/80 leading-relaxed">
+        Ces services tournent déjà sur mon chalet témoin. Vous choisissez ceux dont vous avez besoin, sans engagement global.
+      </p>
+      <a href="https://clarteweb35.github.io/clarte-sejours/" class="mt-8 inline-block btn-ghost font-medium px-6 py-3 rounded-full text-sm">Découvrir Clarté Séjours</a>
+    </div>
+    <ul class="space-y-3 text-sm">
+      <li class="flex items-center justify-between bg-white rounded-2xl px-5 py-4 border border-[var(--ink)]/10"><span>Accueil des voyageurs</span><span class="font-mono text-xs text-[var(--oak)]">à venir</span></li>
+      <li class="flex items-center justify-between bg-white rounded-2xl px-5 py-4 border border-[var(--ink)]/10"><span>Ménage &amp; blanchisserie</span><span class="font-mono text-xs text-[var(--oak)]">à venir</span></li>
+      <li class="flex items-center justify-between bg-white rounded-2xl px-5 py-4 border border-[var(--ink)]/10"><span>Paniers repas locaux</span><span class="font-mono text-xs text-[var(--oak)]">à venir</span></li>
+      <li class="flex items-center justify-between bg-white rounded-2xl px-5 py-4 border border-[var(--ink)]/10"><span>Cadeaux &amp; attentions</span><span class="font-mono text-xs text-[var(--oak)]">à venir</span></li>
+    </ul>
+  </div>
+</section>
+
 <!-- ===== FAQ ===== -->
 <section id="faq" class="section-pad">
   <div class="max-w-3xl mx-auto px-6 md:px-10">
@@ -383,24 +414,24 @@
       Un premier échange de 30 minutes, gratuit et sans engagement, pour faire le point sur votre projet et voir s'il est prêt à démarrer.
     </p>
 
-    <form class="mt-10 max-w-lg mx-auto grid gap-4 text-left" onsubmit="event.preventDefault();">
+    <form class="mt-10 max-w-lg mx-auto grid gap-4 text-left" onsubmit="event.preventDefault();"><fieldset disabled class="contents">
       <div class="grid md:grid-cols-2 gap-4">
         <input type="text" placeholder="Votre nom" class="rounded-2xl px-4 py-3 bg-[var(--stone)]/95 text-[var(--ink)] placeholder-[var(--ink)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--rust)] transition-shadow">
         <input type="tel" placeholder="Téléphone" class="rounded-2xl px-4 py-3 bg-[var(--stone)]/95 text-[var(--ink)] placeholder-[var(--ink)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--rust)] transition-shadow">
       </div>
       <input type="email" placeholder="Adresse e-mail" class="rounded-2xl px-4 py-3 bg-[var(--stone)]/95 text-[var(--ink)] placeholder-[var(--ink)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--rust)] transition-shadow">
       <textarea rows="3" placeholder="Où en est votre projet ? (terrain déjà disponible, commune, échéance envisagée...)" class="rounded-2xl px-4 py-3 bg-[var(--stone)]/95 text-[var(--ink)] placeholder-[var(--ink)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--rust)] resize-none transition-shadow"></textarea>
-      <button type="submit" class="btn-primary font-medium px-6 py-3.5 rounded-full mt-2">Demander mon échange gratuit</button>
-      <p class="text-xs text-[var(--stone)]/50 text-center mt-1">Réponse sous 48h ouvrées.</p>
-    </form>
+      <button type="submit" class="btn-primary font-medium px-6 py-3.5 rounded-full mt-2 opacity-60 cursor-not-allowed">Formulaire à venir</button>
+      <p class="text-xs text-[var(--stone)]/50 text-center mt-1">Formulaire à venir : les demandes ouvriront très prochainement.</p>
+    </fieldset></form>
   </div>
 </section>
 
 <!-- ===== FOOTER ===== -->
 <footer class="py-10 bg-[var(--pine)] text-white border-t border-[var(--stone)]/10">
   <div class="max-w-6xl mx-auto px-6 md:px-10 text-xs text-stone-300 text-center space-y-2">
-    <div>&copy; 2026 mon-chalet.fr — Tous droits réservés. Site Réalisé par <a href="https://www.clarte-web.fr" target="_blank" rel="noopener" class="underline text-white hover:text-[var(--oak)]">Clarté Web</a></div>
-    <div>mon-chalet.fr est édité par JGS Company — Conseil en agencement &amp; accompagnement à la location touristique (SASU en cours d'immatriculation). Domagné (35).</div>
+    <div>&copy; 2026 Clarté Conseils — Tous droits réservés. Site Réalisé par <a href="https://www.clarte-web.fr" target="_blank" rel="noopener" class="underline text-white hover:text-[var(--oak)]">Clarté Web</a></div>
+    <div>Clarté Conseils est une marque de JGSgroupe.eu — Conseil en agencement &amp; accompagnement à la location touristique. Domagné (35).</div>
   </div>
 </footer>
 
